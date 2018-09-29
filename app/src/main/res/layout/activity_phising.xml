@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       tools:context="com.example.shays.facebookhack.Phising">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hack Facebook Account Password By Phishing"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ph" />
+
+        <TextView
+            android:textSize="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Phishing is still the most popular attack vector used for hacking Facebook accounts. There are various methods to carry out phishing attack. In simple phishing attacks, a hacker creates a fake login page which exactly looks like the real Facebook page and then asks the victim to log in. Once the victim logs in through the fake page the, the victims “Email Address” and “Password” is stored into a text file, and the hacker then downloads the text file and gets his hands on the victim’s credentials."
+            android:layout_margin="5dp" />
+</LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
+
+
+
+
