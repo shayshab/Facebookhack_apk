@@ -1,4 +1,4 @@
-package com.example.shays.facebookhack;
+package com.decoderssquad.nss.facebooksecurity;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

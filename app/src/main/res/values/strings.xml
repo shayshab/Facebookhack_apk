@@ -2,4 +2,8 @@
     <string name="app_name">Facebook Security</string>
     <string name="open">open</string>
     <string name="close">close</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2357988955955365/9860331625</string>
+    <string name="int_ad_unit_id">ca-app-pub-2357988955955365/4224861563</string>
+
+
 </resources>

@@ -1,4 +1,4 @@
-package com.example.shays.facebookhack;
+package com.decoderssquad.nss.facebooksecurity;
 
 import org.junit.Test;
 

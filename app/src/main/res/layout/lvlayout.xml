@@ -1,26 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:background="#fff"
-    android:orientation="vertical"
-    android:padding="5dp"
+    android:layout_width="80dp"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="@color/ln"
+    android:padding="15dp"
+
     >
 
 
     <ImageView
-        android:id="@+id/imag"
+        android:background="#00aee5"
+        android:id="@+id/img"
         android:layout_width="50dp"
-        android:layout_height="50dp">
-    </ImageView>
+        android:layout_height="50dp"
+        android:src="@drawable/ic_launcher_background"/>
 
     <TextView
-        android:id="@+id/txid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:textSize="9sp" >
-    </TextView>
+        android:id="@+id/txid"
+        android:paddingLeft="30dp"
+        android:textColor="#00aee5"
+        android:text="demo item"
+        android:textSize="25dp"
+
+        />
 
 </LinearLayout>

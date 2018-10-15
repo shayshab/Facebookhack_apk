@@ -1,36 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.shays.facebookhack">
+    package="com.decoderssquad.nss.facebooksecurity">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.Splash"></activity>
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.MainActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Phising" />
-        <activity android:name=".Keylogging" />
-        <activity android:name=".Spassword" />
-        <activity android:name=".SessionHijacking" />
-        <activity android:name=".SideJacking" />
-        <activity android:name=".MobilePhone" />
-        <activity android:name=".DnsSpoofing" />
-        <activity android:name=".USB" />
-        <activity android:name=".ManinTheMiddle" />
-        <activity android:name=".Botnets" />
-        <activity android:name=".SocialEng" />
-        <activity android:name=".Email" />
-        <activity android:name=".Masked_pass" />
-        <activity android:name=".WifiHack" />
-        <activity android:name=".Logout"></activity>
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.Phising" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.Keylogging" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.Spassword" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.SessionHijacking" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.SideJacking" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.MobilePhone" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.DnsSpoofing" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.USB" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.ManinTheMiddle" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.Botnets" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.SocialEng" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.Email" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.Masked_pass" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.WifiHack" />
+        <activity android:name="com.decoderssquad.nss.facebooksecurity.Logout" />
+
     </application>
 
 </manifest>
